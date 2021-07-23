@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #1d1d1d;
+    overflow-x: hidden !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+.banner,main{
+    background: #333232;
+}
+.tag{
+    color: #515152;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.main-btn{
+    color: #08fdd8;
+    border: 1px solid #08fdd8;
+    /* transition: 0.3s ease; */
+    position: relative;
+    display: block;
+}
+.main-btn {
+    overflow: hidden;
+  }
+  
+.main-btn:hover{
+color: #1d1d1d;
+background:#08fdd8;
+transition: 0.3s ease;
+font-weight: bold;
+}
+.side-bar{
+    background: #141414;
+    height:100vh;
+}
+.primary-bg{
+background:#1d1d1d;
+}
+.secondary-bg{
+    background: #2b2b2b;
+}
+.primary-text{
+    color: #08fdd8;
+}
+.project-title{
+    color: #ff0b56;
+}
+.project-card{
+    box-shadow: -5px -5px 10px rgba(255,255,255,.05),
+                 5px 5px 10px rgba(0, 0, 0, 0.5);
+  justify-content: space-evenly;
+  width: 320px;
+}
+.ml6{
+    position: relative;
+    font-weight: 900;  
+}
+.ml6 .letters {
+    display: inline-block;
+    line-height: 1em;
+  }
+  .ml6 .letters span{
+      display: inline-block;
+  }
+.pro-icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:40px;
+    height: 40px;
+    color: #6f6f6f;
+    font-size: 16px;
+    border-radius: 50%;
+    box-shadow: -1px -1px 3px rgba(255,255,255,.01),
+                 2px 2px 6px rgba(0,0,0,0.8);
+}
+.pro-icon:hover{
+    color: #08fdd8;
+    box-shadow: -1px -1px 3px rgba(255,255,255,.01),
+    2px 2px 6px rgba(0,0,0,0.8),
+    inset -2px -2px 10px rgba(255,255,255,.01), 
+    inset 2px 2px 10px rgba(0,0,0,0.5);  
+}
+.pro-icon:nth-child(1):hover{
+    color: #ff0b56;
+}
+.bg-text{
+    color: rgba(255,255,255,.05);
+}
+.About,.project{
+    background:#1d1d1d;
+}
+.side-text{
+    color: gray;
+    border-bottom: 1px solid rgb(65, 64, 64);
+    transition: 0.3s ease;
+}
+.side-text:hover{
+    color: #08fdd8;
+    transition: 0.3s ease;
+}
+.bor{
+    border-top:1px solid rgb(65, 64, 64);
+}
+.icon{
+    color: gray;
+    font-size:22px;
+    margin: 5px;
+    cursor: pointer;
+}
+.times{
+    display: none;
+}
+
+.about-title{
+    color: #08fdd8;
+}
+.full-line{
+    position: absolute;
+    bottom: 0;
+    background:#08fdd8;  /* fallback for old browsers */
+    width: 100%;
+    height: 2px;
+    border-radius: 6px;
+}
+.full-line.effect{
+    bottom: 0;
+    left: 0;
+    width: 0;
+}
+
+.project-card:hover .full-line.effect, .input:hover .full-line.effect{
+    transition: width 0.5s ease;
+    width: 100%;
+}
+
+.j{
+    animation-name: rotate;
+  animation-duration: 0.6s;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(-180deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+  }
+@media(max-width:1023px){
+    .side-bar{
+        width: 100%;
+        z-index: 999;
+        top: -800px !important;
+        transition: 0.3s ease-in-out;
+    }
+    .down{
+        top: 0 !important;
+        transition: 0.3s ease-in-out;
+    }
+    .times{
+        display: block;
+    }
+}
+@media(max-width:470px){
+    .banner{
+        height: 400px;
+    }
+    .project-card-area,.project{
+        overflow-x: hidden !important;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
