@@ -53,7 +53,7 @@ const Contact = () => {
             </div>
                 
             <div data-aos="fade-up" className="  map w-1/2 p-5 w-full flex items-center justify-center">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60952.85914208979!2d74.1622353360408!3d17.288813917757672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc182450c753bad%3A0xb3493b19ae7886ca!2sKarad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1626854176823!5m2!1sen!2sin" width="500" height="450" allowfullscreen="" loading="lazy" ></iframe>
+            <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60952.85914208979!2d74.1622353360408!3d17.288813917757672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc182450c753bad%3A0xb3493b19ae7886ca!2sKarad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1626854176823!5m2!1sen!2sin" width="500" height="450" allowfullscreen="" loading="lazy" ></iframe>
             </div>
         </div>
     )
