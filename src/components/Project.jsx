@@ -32,40 +32,40 @@ Interested to see some more? Visit my <a className="primary-text" href="https://
 </p>
 <p className="tag font-bold">&lt;/p&gt;</p>
             <div className="project-card-area flex flex-wrap item-center" style={{justifyContent:"space-evenly"}}>
-              <ProjectCard title="Google Drive Clone"
-              text="A drive like app build on react redux and firebase"
-              github="ReactGoogleDriveClone"
-              live="https://driveclone-6e9ac.web.app/"
+              <ProjectCard title="Foodly"
+              text="AE-Commerce Website"
+              github="Food-Delivery"
+              live="https://mern-food-delivery-app.herokuapp.com/"
               data="fade-left"
               />
-              <ProjectCard title="Netflix Clone"
-              text="A Netflix clone app build on top react redux and firebase"
-              github="ReactNetflixClone"
-              live="https://netflixreactclone-93749.web.app/"
+              <ProjectCard title=" SuperT3 "
+              text="multiplayer tic tac toe game Build on React , NodeJS ,Socket.io , MongoDB (MERN Stack)"
+              github="SuperT3"
+              live="https://supert3.herokuapp.com/"
               data="fade-up"
               />
-              <ProjectCard title="Story JS"
-              text="Story posting app made using NodeJS materialize css..."
-              github="Story.js"
-              live=""
+              <ProjectCard title="ClassConnect"
+              text="A class room connect web app built on top of React, Redux and Firebase"
+              github="https://github.com/Learn-Write-Repeat/DevHack22/tree/main/Web%20Development/Jaydeep-Shelake"
+              live="https://auth-83ed4.web.app/"
               data="fade-right"
               />
-              <ProjectCard title="Amazon Clone"
-              text="A E-commerce app build on NextJS redux and firebase"
-              github="NextJSAmazonClone"
-              live="https://next-jsa-mazon-clone.vercel.app/"
+              <ProjectCard title="NextKBC"
+              text="Kon Banega Kardodpati theme quiz app built using nextjs"
+              github="nextKBC"
+              live="https://next-kbc.vercel.app"
               data="fade-left"
               />
-              <ProjectCard title="Pizza Dilevery app"
-              text="A Pizza Delevery system made on NodeJS.,Express and MongoDB"
-              github="PizzaDelivery"
-              live=""
+              <ProjectCard title="state-district-component"
+              text="A React 🔯 Library for fetching States and districts of India 💥"
+              github="state-district-component"
+              live="https://www.npmjs.com/package/state-district-component"
               data="fade-up"
               />
-              <ProjectCard title="College Sarthi"
-              text="internship project where I worked with team on Exam portal website "
+              <ProjectCard title="GoElectric"
+              text="Electric bill management dashborad"
 
-              live="https://collegesarathi.com/"
+              live="https://exela-electrical-bill.herokuapp.com/"
               data="fade-right"
               />
             </div>
